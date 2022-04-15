@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Montserrat:wght@300;500&display=swap');
+*{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+article{
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5%;  
+}
+
+.parent .child{
+    margin: 5px;    
+}
+
+button{
+    border-radius: 10px;
+    width: 150px;
+}

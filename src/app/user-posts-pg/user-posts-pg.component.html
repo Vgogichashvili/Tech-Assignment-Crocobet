@@ -1,0 +1,17 @@
+<article>
+    <div class="container">
+        <div class="buttons">
+            <button type="button" (click)="BackToUserInfoPgBtnClick()" class="btn btn-primary col-md-1">User Info</button>
+            <button type="button" (click)="BackToHomePgBtnClicK()" class="btn btn-success col-md-1">Home</button>
+        </div>
+            <div class="content-card" *ngFor="let item of userPosts">               
+                <div class="card-text"  >
+                    <div class="content">                           
+                        <h6 class="category">{{item.id}}</h6>
+                        <h4 class="title">{{item.title}}</h4>
+                        <p class="description"> {{item.body}} </p>
+                    </div>                           
+                </div>
+            </div>
+    </div>
+</article>

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Montserrat:wght@300;500&display=swap');
+
+article{
+    background-image: url("https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.content-card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5;
+    margin: 40px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Montserrat', sans-serif;  
+    display: flex;
+    justify-content: center; 
+    color:white;  
+}
+
+
+.card-text{
+    background-color: rgb(120, 55, 206);
+    height: 150px;
+    border: 1px;
+    border-radius: 10px;
+    width: 100%;
+}
+h4, p{
+    text-align: center;
+}
+
+h6{
+    margin: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;    
+}
+
+button{
+    margin-right: 20px;
+}
+
